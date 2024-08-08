@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: windows 11 pro
+    runs-on: ubuntu
     permissions: read-all
     steps:
       - uses: actions/checkout@v2
